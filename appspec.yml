@@ -1,0 +1,20 @@
+version: 0.0
+os: linux
+files:
+    - source: /
+      destination: /home/ubuntu/do_it_django_test
+    - source: /.env
+      destination: /home/ubuntu/do_it_django_test
+file_exists_behavior: OVERWRITE
+
+permissions:
+    - object: /home/ubuntu/do_it_django_test
+      pattern: '**'
+      owner: root
+      group: root
+
+hooks:
+    AfterInstall:
+        - location: scripts/after_deploy.sh
+          timeout: 6000  # 6000초
+          runas: root
