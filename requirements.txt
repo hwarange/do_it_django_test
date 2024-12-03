@@ -3,11 +3,8 @@ crispy-bootstrap5==2024.10
 gunicorn==23.0.0
 django-crispy-forms==2.3
 jwt==1.3.1
-<<<<<<< HEAD
 psycopg2-binary==2.9.10
 requests==2.32.3
 django-markdownx==4.0.7
 django-allauth==65.2.0
-=======
-psycopg2-binary==2.9.10
->>>>>>> 8799d93188a7c5516280360fdcbf6f1b39d8db63
+
