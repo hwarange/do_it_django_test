@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     "allauth.account",
     "allauth.socialaccount",
     "allauth.socialaccount.providers.google",
+    "blog",
+    "single_pages",
 ]
 
 MIDDLEWARE = [
