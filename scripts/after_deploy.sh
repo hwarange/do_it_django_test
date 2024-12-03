@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd  /home/ubuntu/do_int_django_test
+cd  /home/ubuntu/do_it_django_test
 
 echo "> 🔵 Stop & Remove docker services."
 sudo docker-compose down
