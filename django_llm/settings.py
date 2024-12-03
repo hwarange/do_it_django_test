@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     "crispy_forms",
     "crispy_bootstrap5",
     "markdownx",
+    'django.contrib.sites',
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
