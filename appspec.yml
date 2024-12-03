@@ -6,7 +6,7 @@ files:
 file_exists_behavior: OVERWRITE
 
 permissions:
-    - object: /home/ubuntu/do_it_django_test
+    - object: /home/ubuntu
       pattern: '**'
       owner: root
       group: root
